@@ -186,7 +186,7 @@ void verification(String uname,String password){
          ResultSet rs=st.executeQuery();
         while(rs.next())
         {
-            HomePage hp= new HomePage();
+            AddFees hp= new AddFees();
             hp.show();
             this.dispose();
         }
